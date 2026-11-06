@@ -4,10 +4,10 @@
     <title>Jarvey - stable</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.5</title>
-      <description>Mejoras en deteccion, configuracion y agrupacion de conflictos Clash. Biblioteca compartida de conjuntos y rotulos, ubicaciones, revision 3D, historial y recuperacion de cambios.</description>
-      <pubDate>Fri, 06 Nov 2026 03:06:39 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.5/Jarvey-Setup-1.0.5-win-x64.exe" length="71232282" type="application/octet-stream" sparkle:version="1.0.0.9" sparkle:shortVersionString="1.0.5" sparkle:os="windows-x64" sparkle:edSignature="TUfmGiLEkIM8bncGfaidNyKEuk4pLnej/Uw5crmZB0X+A/WeJ0HHCYqQQbXpi39RjJsY2XdYNe5rJSSZ0xHRCg==" />
+      <title>Jarvey 1.0.6</title>
+      <description>Mejoras en la integridad de las publicaciones 3D desde Revit. Recuperacion automatica ante geometria incompleta y proteccion de la publicacion anterior.</description>
+      <pubDate>Fri, 06 Nov 2026 15:08:04 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.6/Jarvey-Setup-1.0.6-win-x64.exe" length="71239308" type="application/octet-stream" sparkle:version="1.0.0.10" sparkle:shortVersionString="1.0.6" sparkle:os="windows-x64" sparkle:edSignature="zDRSwkvJozx8lTUkzCGtcb2UKOpeXp73jMMQSMMu67qNbQ30G5SRugukuCOEyLTV3BosUYJirM/Pgedt8TQHAA==" />
     </item>
   </channel>
 </rss>
