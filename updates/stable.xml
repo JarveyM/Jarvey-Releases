@@ -4,10 +4,10 @@
     <title>Jarvey - stable</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.16</title>
-      <description>Mejora la carga paginada del catalogo de incidencias y conserva los borradores locales.</description>
-      <pubDate>Fri, 13 Nov 2026 23:59:04 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.16/Jarvey-Setup-1.0.16-win-x64.exe?download=1" length="71566940" type="application/octet-stream" sparkle:version="1.0.0.20" sparkle:shortVersionString="1.0.16" sparkle:os="windows-x64" sparkle:edSignature="DQzHFOVrvb1OZfKXJlHa53u2Sf9J7HIXa9TNo68OwEm92vtUCqQTpaJoiachSsSDPWsHVCRdzLs3ZQy78BgdBA==" />
+      <title>Jarvey 1.0.17</title>
+      <description>Correccion del parpadeo del boton de incidencias y restablecimiento de contrasena con codigo de administrador.</description>
+      <pubDate>Sat, 14 Nov 2026 13:54:46 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.17/Jarvey-Setup-1.0.17-win-x64.exe?download=1" length="71567392" type="application/octet-stream" sparkle:version="1.0.0.21" sparkle:shortVersionString="1.0.17" sparkle:os="windows-x64" sparkle:edSignature="VCqxZBQpiZ6h00FGD/Svu0zg5Iy+B7bca4+cUXiPXjPs4P7E1GCDqWzkqiQavFaeCMO2i/nnufb9jMlfNzrACA==" />
     </item>
   </channel>
 </rss>
