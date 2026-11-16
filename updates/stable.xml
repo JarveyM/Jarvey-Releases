@@ -4,10 +4,10 @@
     <title>Jarvey - stable</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.18</title>
-      <description>Migra Jarvey a Cloudflare y conserva incidencias, comentarios, adjuntos, Clash, vistas compartidas y sincronizacion. Incluye recuperacion de contrasena y corrige el parpadeo del boton de incidencias.</description>
-      <pubDate>Sun, 15 Nov 2026 14:49:50 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.18/Jarvey-Setup-1.0.18-win-x64.exe?download=1" length="71564255" type="application/octet-stream" sparkle:version="1.0.0.22" sparkle:shortVersionString="1.0.18" sparkle:os="windows-x64" sparkle:edSignature="SfhsaBLg/LnaYXxgyHWHO15sJFf5wFGTPy+6Enz7hyGfjlBW8yJo7sNbQXYnLnO5m4QeCd3vlCCsl8XqcHNDCg==" />
+      <title>Jarvey 1.0.19</title>
+      <description>Iconos mas nitidos, aislamiento transparente corregido, notificaciones Cloudflare, incidencias e imagenes locales, vistas 3D/2D/360 y bibliotecas compartidas con permisos.</description>
+      <pubDate>Mon, 16 Nov 2026 18:39:45 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.19/Jarvey-Setup-1.0.19-win-x64.exe?download=1" length="75501448" type="application/octet-stream" sparkle:version="1.0.0.23" sparkle:shortVersionString="1.0.19" sparkle:os="windows-x64" sparkle:edSignature="xm4ZUS9WVyy645l+Nq1nNehCtDITuBnkJqPEtwvgJ/dnFR4G7NufITHhGeO0Fl2i3U8sHg3s3gggc+ZYzCFHBw==" />
     </item>
   </channel>
 </rss>
