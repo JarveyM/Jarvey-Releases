@@ -4,10 +4,17 @@
     <title>Jarvey - preview</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.19</title>
-      <description>Iconos mas nitidos, aislamiento transparente corregido, notificaciones Cloudflare, incidencias e imagenes locales, vistas 3D/2D/360 y bibliotecas compartidas con permisos.</description>
-      <pubDate>Mon, 16 Nov 2026 18:42:50 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.19/Jarvey-Setup-1.0.19-win-x64.exe?download=1" length="75501448" type="application/octet-stream" sparkle:version="1.0.0.23" sparkle:shortVersionString="1.0.19" sparkle:os="windows-x64" sparkle:edSignature="xm4ZUS9WVyy645l+Nq1nNehCtDITuBnkJqPEtwvgJ/dnFR4G7NufITHhGeO0Fl2i3U8sHg3s3gggc+ZYzCFHBw==" />
+      <title>Jarvey 1.0.20</title>
+      <description># Jarvey 1.0.20
+
+- Mejora la nitidez de los iconos, incluidos Conjuntos de busqueda y Sellos, manteniendo sus colores y comportamiento.
+- Unifica el metodo de representacion de los iconos en distintas escalas de pantalla.
+- Evita que un fallo temporal al consultar las propiedades favoritas interrumpa la apertura del proyecto. Los conjuntos locales se conservan.
+
+Requiere Windows x64. El complemento incluido corresponde a Revit 2026.5 o posterior de la misma version principal.
+</description>
+      <pubDate>Mon, 16 Nov 2026 22:15:09 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.20/Jarvey-Setup-1.0.20-win-x64.exe?download=1" length="75674341" type="application/octet-stream" sparkle:version="1.0.0.24" sparkle:shortVersionString="1.0.20" sparkle:os="windows-x64" sparkle:edSignature="TWNxnnC0bEML08ce/aN6pJHzUW0N762nOctDNqkRPPGL4FnOOKv0XVEWgElysDtTyNW9OOehJ/5q5O+4KIZDCw==" />
     </item>
   </channel>
 </rss>
