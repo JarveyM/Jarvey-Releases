@@ -4,17 +4,20 @@
     <title>Jarvey - stable</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.20</title>
-      <description># Jarvey 1.0.20
+      <title>Jarvey 1.0.21</title>
+      <description># Jarvey 1.0.21
 
-- Mejora la nitidez de los iconos, incluidos Conjuntos de busqueda y Sellos, manteniendo sus colores y comportamiento.
-- Unifica el metodo de representacion de los iconos en distintas escalas de pantalla.
-- Evita que un fallo temporal al consultar las propiedades favoritas interrumpa la apertura del proyecto. Los conjuntos locales se conservan.
+- Texto M1 mas definido y uniforme en ventanas, paneles, menus y controles.
+- Mejoras de alineacion y ajuste de etiquetas, botones y propiedades extensas.
+- Deteccion de interferencias optimizada, con resultados persistentes y diagnostico de geometria degenerada.
+- Se conservan los iconos vectoriales y los flujos de trabajo existentes.
 
-Requiere Windows x64. El complemento incluido corresponde a Revit 2026.5 o posterior de la misma version principal.
+El instalador y el complemento de Revit se distribuyen juntos. No se incluyen
+modelos, fotografias ni credenciales de proyectos. La firma Ed25519 protege la
+actualizacion; el instalador todavia no dispone de certificado Authenticode.
 </description>
-      <pubDate>Mon, 16 Nov 2026 22:15:07 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.20/Jarvey-Setup-1.0.20-win-x64.exe?download=1" length="75674341" type="application/octet-stream" sparkle:version="1.0.0.24" sparkle:shortVersionString="1.0.20" sparkle:os="windows-x64" sparkle:edSignature="TWNxnnC0bEML08ce/aN6pJHzUW0N762nOctDNqkRPPGL4FnOOKv0XVEWgElysDtTyNW9OOehJ/5q5O+4KIZDCw==" />
+      <pubDate>Tue, 17 Nov 2026 18:33:02 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.21/Jarvey-Setup-1.0.21-win-x64.exe?download=1" length="83788166" type="application/octet-stream" sparkle:version="1.0.0.25" sparkle:shortVersionString="1.0.21" sparkle:os="windows-x64" sparkle:edSignature="u7i0+HMoYMiomaarKo/sSwQZvQfa/zrEQQ3n5EjWecwK8gUL283QQ1DmK+QAjEciLD/3TegfrwzTXPmZLJIRCg==" />
     </item>
   </channel>
 </rss>
