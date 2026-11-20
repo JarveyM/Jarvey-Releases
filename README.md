@@ -5,7 +5,7 @@ no contiene el codigo fuente, cuentas, claves ni proyectos BIM de los usuarios.
 
 ## Descargar
 
-[Ultima version estable: Jarvey 1.0.23](https://github.com/JarveyM/Jarvey-Releases/releases/tag/v1.0.23)
+[Ultima version estable: Jarvey 1.0.24](https://github.com/JarveyM/Jarvey-Releases/releases/tag/v1.0.24)
 
 [Instaladores y versiones publicadas](https://github.com/JarveyM/Jarvey-Releases/releases)
 
@@ -13,16 +13,22 @@ no contiene el codigo fuente, cuentas, claves ni proyectos BIM de los usuarios.
 - Complemento opcional: Revit 2026.5 o posterior dentro de Revit 2026.
 - Para actualizar una version anterior a 1.0.0-rc.2, instala manualmente una vez.
 - Desde rc.2: Ayuda > Buscar actualizaciones, o aviso automatico en Jarvey.
-- Jarvey 1.0.23 se ofrece tanto en el canal estable como en el de pruebas.
+- Jarvey 1.0.24 se ofrece tanto en el canal estable como en el de pruebas.
 - Cierra Revit y termina de sincronizar antes de instalar. No se fuerza el cierre.
 - Proyectos locales, Inbox y preferencias se conservan.
 
-La version 1.0.23 corrige el cierre al actualizar desde Jarvey con cambios
-pendientes. En esta primera actualizacion desde una version anterior, si el
+La version 1.0.24 reconoce parametros compartidos por su GUID de Revit entre
+modelos y distingue homonimos de distinta identidad con etiquetas de variante.
+Actualiza Jarvey y el publicador incluido; cierra y vuelve a abrir Revit, y
+publica nuevamente los modelos para incorporar los GUID ausentes. No borres
+ni recrees proyectos. Las condiciones numericas antiguas no se convierten
+automaticamente: vuelve a elegir su propiedad para usar la identidad unificada.
+
+Conserva el cierre corregido al actualizar desde Jarvey. Si el
 instalador indica que Jarvey sigue abierto, cancela el instalador, sincroniza y
 cierra Jarvey normalmente. Luego ejecuta el instalador descargado, sin
-desinstalar ni borrar proyectos. El cierre corregido se aplica a las siguientes
-actualizaciones una vez instalada la version 1.0.23.
+desinstalar ni borrar proyectos. Esto puede ser necesario la primera vez al
+actualizar desde una version anterior a 1.0.23.
 
 ## Canales
 

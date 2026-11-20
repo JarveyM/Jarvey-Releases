@@ -4,25 +4,27 @@
     <title>Jarvey - stable</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.23</title>
-      <description># Jarvey 1.0.23
+      <title>Jarvey 1.0.24</title>
+      <description># Jarvey 1.0.24
 
-- Corrige el cierre al actualizar desde Jarvey cuando existen cambios pendientes de sincronizar.
-- Las opciones de sincronizar, cancelar o salir se resuelven antes de abrir el instalador.
-- Conserva las comprobaciones de trabajo en curso y de Revit abierto; no fuerza el cierre de aplicaciones.
-- Mantiene las mejoras de rendimiento, la tipografia M1 y los iconos de la version anterior.
+- Reconoce un mismo parametro compartido entre modelos por su GUID de Revit, aunque sus identificadores locales sean diferentes.
+- Aplica esa identidad a busquedas, conjuntos dinamicos, propiedades, favoritos, Inspector y lecturas de apariencia y Clash.
+- Distingue parametros del mismo nombre pero de distinta identidad mediante etiquetas "variante 1", "variante 2", sin mostrar GUID entre corchetes.
+- Mantiene la lectura de modelos anteriores y el significado de las condiciones numericas ya guardadas, sin convertirlas automaticamente.
 
-Al actualizar desde una version anterior, si el instalador indica que Jarvey
-sigue abierto, cancela el instalador, sincroniza y cierra Jarvey normalmente.
-Luego ejecuta el instalador descargado. No es necesario desinstalar ni borrar
-proyectos. Esta version incorpora el cierre corregido para futuras actualizaciones.
+Actualiza Jarvey y el publicador de Revit en los equipos que los utilizan.
+El instalador incluye ambos componentes; cierra Revit antes de instalar y
+vuelve a abrirlo para publicar. Vuelve a publicar los modelos desde el nuevo
+publicador para incorporar los GUID ausentes. No borres ni recrees el proyecto.
+Para usar la identidad unificada en una condicion antigua, vuelve a elegir
+su propiedad despues de publicar los modelos.
 
-El instalador y el complemento de Revit se distribuyen juntos. No se incluyen
-modelos, fotografias ni credenciales de proyectos. La firma Ed25519 protege la
-actualizacion; el instalador todavia no dispone de certificado Authenticode.
+No cambia el servicio de nube ni incluye modelos, fotografias o credenciales.
+La firma Ed25519 protege la actualizacion. El instalador todavia no dispone de
+certificado Authenticode; Windows puede mostrar el editor como desconocido.
 </description>
-      <pubDate>Fri, 20 Nov 2026 15:33:48 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.23/Jarvey-Setup-1.0.23-win-x64.exe?download=1" length="83802855" type="application/octet-stream" sparkle:version="1.0.0.27" sparkle:shortVersionString="1.0.23" sparkle:os="windows-x64" sparkle:edSignature="GFCtqhjMkCM60zgYiUkb03UzzsqgVyRNxzDesSGaYJ2dgSlPOnrfHLLjGoidQcLuilVmrx4x8P3FMny9KIkaDg==" />
+      <pubDate>Fri, 20 Nov 2026 17:51:41 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.24/Jarvey-Setup-1.0.24-win-x64.exe?download=1" length="83809003" type="application/octet-stream" sparkle:version="1.0.0.28" sparkle:shortVersionString="1.0.24" sparkle:os="windows-x64" sparkle:edSignature="ao77TYneOYFYNRWdkJkH/qyVZizcC0HYBpCPhEka5808djBhiZodNVJqeujnrmkGWCaxOOO3RxyS4BtNRhi8CQ==" />
     </item>
   </channel>
 </rss>
