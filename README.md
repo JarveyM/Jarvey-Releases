@@ -5,7 +5,7 @@ no contiene el codigo fuente, cuentas, claves ni proyectos BIM de los usuarios.
 
 ## Descargar
 
-[Ultima version estable: Jarvey 1.0.22](https://github.com/JarveyM/Jarvey-Releases/releases/tag/v1.0.22)
+[Ultima version estable: Jarvey 1.0.23](https://github.com/JarveyM/Jarvey-Releases/releases/tag/v1.0.23)
 
 [Instaladores y versiones publicadas](https://github.com/JarveyM/Jarvey-Releases/releases)
 
@@ -13,9 +13,16 @@ no contiene el codigo fuente, cuentas, claves ni proyectos BIM de los usuarios.
 - Complemento opcional: Revit 2026.5 o posterior dentro de Revit 2026.
 - Para actualizar una version anterior a 1.0.0-rc.2, instala manualmente una vez.
 - Desde rc.2: Ayuda > Buscar actualizaciones, o aviso automatico en Jarvey.
-- Jarvey 1.0.22 se ofrece tanto en el canal estable como en el de pruebas.
+- Jarvey 1.0.23 se ofrece tanto en el canal estable como en el de pruebas.
 - Cierra Revit y termina de sincronizar antes de instalar. No se fuerza el cierre.
 - Proyectos locales, Inbox y preferencias se conservan.
+
+La version 1.0.23 corrige el cierre al actualizar desde Jarvey con cambios
+pendientes. En esta primera actualizacion desde una version anterior, si el
+instalador indica que Jarvey sigue abierto, cancela el instalador, sincroniza y
+cierra Jarvey normalmente. Luego ejecuta el instalador descargado, sin
+desinstalar ni borrar proyectos. El cierre corregido se aplica a las siguientes
+actualizaciones una vez instalada la version 1.0.23.
 
 ## Canales
 

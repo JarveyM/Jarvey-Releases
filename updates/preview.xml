@@ -4,23 +4,25 @@
     <title>Jarvey - preview</title>
     <language>es</language>
     <item>
-      <title>Jarvey 1.0.22</title>
-      <description># Jarvey 1.0.22
+      <title>Jarvey 1.0.23</title>
+      <description># Jarvey 1.0.23
 
-- Menor retencion de datos al cerrar proyectos y reutilizacion acotada de textos BIM repetidos.
-- Apertura de proyectos optimizada sin omitir permisos ni verificaciones de integridad.
-- Carga asincrona y reutilizacion de imagenes de incidencias y fotos 360.
-- Menos trabajo 3D cuando una imagen o una ventana opaca cubre el visor.
-- Mejoras de rendimiento en Clash, propiedades, listas de modelos e historiales extensos.
-- Mejoras internas del visor 2D y del procesamiento de regiones de plano en Revit.
-- Se conservan la tipografia M1, los iconos y la calidad de los modelos.
+- Corrige el cierre al actualizar desde Jarvey cuando existen cambios pendientes de sincronizar.
+- Las opciones de sincronizar, cancelar o salir se resuelven antes de abrir el instalador.
+- Conserva las comprobaciones de trabajo en curso y de Revit abierto; no fuerza el cierre de aplicaciones.
+- Mantiene las mejoras de rendimiento, la tipografia M1 y los iconos de la version anterior.
+
+Al actualizar desde una version anterior, si el instalador indica que Jarvey
+sigue abierto, cancela el instalador, sincroniza y cierra Jarvey normalmente.
+Luego ejecuta el instalador descargado. No es necesario desinstalar ni borrar
+proyectos. Esta version incorpora el cierre corregido para futuras actualizaciones.
 
 El instalador y el complemento de Revit se distribuyen juntos. No se incluyen
 modelos, fotografias ni credenciales de proyectos. La firma Ed25519 protege la
 actualizacion; el instalador todavia no dispone de certificado Authenticode.
 </description>
-      <pubDate>Thu, 19 Nov 2026 20:11:16 GMT</pubDate>
-      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.22/Jarvey-Setup-1.0.22-win-x64.exe?download=1" length="83809359" type="application/octet-stream" sparkle:version="1.0.0.26" sparkle:shortVersionString="1.0.22" sparkle:os="windows-x64" sparkle:edSignature="LejTOxsdf1VhH7ikzhYtKX4i3pchP02Ci2efVkRe9u+Eg3mPKQHmefPyvUvoTBrBITEfoe5CQYm7S1FrFdysBw==" />
+      <pubDate>Fri, 20 Nov 2026 15:33:50 GMT</pubDate>
+      <enclosure url="https://github.com/JarveyM/Jarvey-Releases/releases/download/v1.0.23/Jarvey-Setup-1.0.23-win-x64.exe?download=1" length="83802855" type="application/octet-stream" sparkle:version="1.0.0.27" sparkle:shortVersionString="1.0.23" sparkle:os="windows-x64" sparkle:edSignature="GFCtqhjMkCM60zgYiUkb03UzzsqgVyRNxzDesSGaYJ2dgSlPOnrfHLLjGoidQcLuilVmrx4x8P3FMny9KIkaDg==" />
     </item>
   </channel>
 </rss>
